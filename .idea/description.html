@@ -1,10 +1,165 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .mainDiv{
+         margin : 0px auto;
+          position: relaive;
+        }
+
+        .board{
+            width:70%;
+            height: 200px;
+            box-sizing: border-box;
+            border: 1px solid gray;
+        }
+        ul> li{
+          float:left;
+        }
+         .p1{
+          float:left;
+
+        }
+        .p2{
+          float:right;
+        }
+        .btnPlay{
+         background-color: green;
+         color:white;
+        }
+        .row1{
+        float:left;
+        }
+         .row2{
+        float:left;
+        }
+    </style>
 </head>
 <body>
-$END$
+<div>
+    <center><h1>Mancala Game Time</h1></center>
+    <center class="mainDiv">
+        <div class="p1">
+            <div>
+                <button class="btnPlay" >Begin To Play</button>
+            </div>
+
+            <label>Player 1 :
+                <input/>
+                </label><br>
+          <div>
+
+              <div>
+                  <label>
+                      Score:
+                      <input value="" />
+                  </label>
+              </div>
+         </div>
+        </div>
+        <div class="board">
+            <div class="row1">
+            <ul>
+                <li>
+                    <input class="boxes"/>
+                </li>
+                <li>
+                    <input class="boxes"/>
+                </li>
+                <li>
+                    <input class="boxes"/>
+                </li>
+                <li>
+                    <input class="boxes"/>
+                </li>
+                <li>
+                    <input class="boxes"/>
+                </li>
+                <li>
+                    <input class="boxes"/>
+                </li>
+                <li>
+                    <input class="boxes"/>
+                </li>
+                <li>
+                    <input class="boxes"/>
+                </li>
+                <li>
+                    <input class="boxes"/>
+                </li>
+                <li>
+                    <input class="boxes"/>
+                </li>
+                <li>
+                    <input class="boxes"/>
+                </li>
+                <li>
+                    <input class="boxes"/>
+                </li>
+            </ul>
+            </div>
+            <br></hr>
+            <div class="row2">
+            <ul>
+                <li>
+                    <input class="boxes"/>
+                </li>
+                <li>
+                    <input class="boxes"/>
+                </li>
+                <li>
+                    <input class="boxes"/>
+                </li>
+                <li>
+                    <input class="boxes"/>
+                </li>
+                <li>
+                    <input class="boxes"/>
+                </li>
+                <li>
+                    <input class="boxes"/>
+                </li>
+                <li>
+                    <input class="boxes"/>
+                </li>
+                <li>
+                    <input class="boxes"/>
+                </li>
+                <li>
+                    <input class="boxes"/>
+                </li>
+                <li>
+                    <input class="boxes"/>
+                </li>
+                <li>
+                    <input class="boxes"/>
+                </li>
+                <li>
+                    <input class="boxes"/>
+                </li>
+            </ul>
+
+        </div>
+        </div>
+        <div class="p2">
+            <div>
+                <button class="btnPlay" >Begin To Play</button>
+            </div>
+            <label>Player 2 :
+                <input/>
+            </label><br>
+
+            <div>
+                <label>
+                    Score:
+                    <input/>
+                </label>
+            </div>
+        </div>
+
+    </center>
+</div>
 </body>
 </html>
